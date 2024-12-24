@@ -1,0 +1,7 @@
+{
+  "vnp_TmnCode":"EKN51NNM",
+  "vnp_HashSecret":"TQU80Z44A8I2UIV82BE69C8H189FL5OU",
+  "vnp_Url":"https://sandbox.vnpayment.vn/paymentv2/vpcpay.html",
+  "vnp_Api":"https://sandbox.vnpayment.vn/merchant_webapi/api/transaction",
+  "vnp_ReturnUrl": "http://localhost:3005/v1/order/vnpay_return"
+}
