@@ -32,7 +32,7 @@ app.use(morgan('combined'))
 
 
 app.use(cors({
-  origin: 'https://tt-shop.vercel.app',
+  origin: '*',
    headers: "content-type",
    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
      allowedHeaders: ['token','Content-Type', 'Authorization', 'access-control-allow-credentials','access-control-allow-methods','access-control-allow-origin','access-control-allow-headers'],
